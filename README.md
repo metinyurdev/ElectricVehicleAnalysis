@@ -9,3 +9,6 @@ Bu proje, elektrikli araç popülasyonu verilerini analiz ederek büyüme trendl
 2. Eksik ve bozuk veri temizliği
 3. İstatistiksel analizler ve çıkarımlar
 4. Stratejik sonuçlar ve öneriler
+
+## Kaggle Notebbok Linki
+[LINK]{https://www.kaggle.com/code/metinyurdev/electricvehicleanalysisproject}
