@@ -11,4 +11,4 @@ Bu proje, elektrikli araç popülasyonu verilerini analiz ederek büyüme trendl
 4. Stratejik sonuçlar ve öneriler
 
 ## Kaggle Notebbok Linki
-[LINK]{https://www.kaggle.com/code/metinyurdev/electricvehicleanalysisproject}
+- Notebook: [LINK](https://www.kaggle.com/code/metinyurdev/electricvehicleanalysisproject)
