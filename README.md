@@ -21,7 +21,7 @@ Bu projede kullanılan teknolojiler ve araçlar şunlardır:
 - Pandas - Veri manipülasyonu ve temizleme
 - Numpy - Sayısal hesaplamalar ve veri analizleri
 - Matplotlib & Seaborn - Veriyi görselleştirme ve analiz sonuçlarını grafiklerle sunma
-- Jupyter Notebook - Kod yazma, çalıştırma ve raporlama platformu
+- Kaggle - Kod yazma, çalıştırma ve raporlama platformu
 - Git & GitHub - Versiyon kontrolü ve proje paylaşımı
 
 ![image](https://github.com/user-attachments/assets/8bdc30dd-94ab-4f3a-ba49-0f45db6e80c2)
