@@ -40,17 +40,6 @@ Bu projede kullanılan teknolojiler ve araçlar şunlardır:
 - Elektrikli Araçlar vs Hibrit Araçlar: Elektrikli araçlar, hibrit araçlara kıyasla 4 kat daha fazla tercih edilmiştir.
 - Şehir Bazlı Dağılımlar: Seattle, Bellevue'den 4 kat daha fazla elektrikli araç kullanımı ile öne çıkmaktadır.
 
-## 🔧 Kurulum ve Çalıştırma
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
-
-1. Python 3.x ve pip'in yüklü olduğundan emin olun.
-2. Repo'yu klonlayın:
->git clone https://github.com/kullanici_adi/elektrikli-arac-analizi.git
-3. Gerekli kütüphaneleri yükleyin:
->pip install -r requirements.txt
-4. Projeyi çalıştırın
->jupyter notebook
- 
 ## 📄 Lisans
 Bu proje, MIT Lisansı altında lisanslanmıştır.
 
