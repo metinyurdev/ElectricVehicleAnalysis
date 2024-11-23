@@ -43,6 +43,6 @@ Bu projede kullanılan teknolojiler ve araçlar şunlardır:
 ## 📄 Lisans
 Bu proje, MIT Lisansı altında lisanslanmıştır.
 
-## Kaggle Notebbok Linki
+## Kaggle Notebook Linki
 - Notebook: [LINK](https://www.kaggle.com/code/metinyurdev/electricvehicleanalysisproject)
 
