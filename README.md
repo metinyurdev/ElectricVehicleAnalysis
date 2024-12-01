@@ -59,6 +59,22 @@ Veri seti toplamda **200.000+ satır** ve **17 sütun** içermektedir. Örnek s�
 - **Elektrikli Araçlar vs Hibrit Araçlar:** Elektrikli araçlar, hibrit araçlara kıyasla 4 kat daha fazla tercih edilmektedir.
 - **Şehir Bazlı Dağılımlar:** Seattle, Bellevue'den 4 kat daha fazla elektrikli araç kullanımı ile öne çıkmaktadır.
 
+#### 📝 Sonuçlar  
+1. Elektrikli araç pazarı hızla büyümekte, Tesla bu pazarın açık ara lideri olarak konumlanmaktadır.  
+2. Tesla'nın başarısının temel nedenleri:  
+   - **Elektrik menzili**  
+   - **Fiyat-performans oranı**  
+   - **Teknolojik yenilikler**  
+3. Elektrikli araçların popülerliği, hibrit araçların ve fosil yakıtlı araçların önüne geçmektedir.  
+
+#### 💡 Öneriler  
+1. Elektrikli araç şarj altyapısına yatırım yapılabilir. Özellikle **Seattle** gibi elektrikli araç kullanımının yoğun olduğu bölgelerde şarj istasyonları kurarak pazar payı artırılabilir.  
+2. Elektrikli araçlarla **entegre enerji çözümleri** geliştirilmelidir.  
+   - Evde kullanılabilecek yenilenebilir enerji destekli şarj cihazları sunulabilir.  
+   - Elektrikli araç markaları ile iş birliği yapılabilir.  
+3. **Tesla gibi lider markalarla iş birlikleri** kurularak şarj altyapısında avantaj sağlanabilir ve marka prestiji artırılabilir.  
+
+---
 ## 📄 Lisans
 Bu proje, **MIT Lisansı** altında lisanslanmıştır.
 
