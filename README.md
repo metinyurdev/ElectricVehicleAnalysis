@@ -3,7 +3,7 @@
 ## 📊 Proje Hakkında
 Bu proje, elektrikli araç pazarındaki eğilimleri analiz etmek ve enerji altyapısı planlamalarına yönelik stratejik içgörüler sağlamak amacıyla geliştirilmiştir. Özellikle **Seattle şehri** ve **Tesla marka araçlar** üzerine yapılan detaylı analizler, sektörün geleceğine ışık tutacak önemli bulgular sunmaktadır.
 
-Fosil enerji üreticilerine, elektrikli araçların pazar etkisi ve Tesla'nın neden pazar lideri olduğu gibi kritik bilgiler sunulmuştur. Bu analizler, çevre dostu enerji kaynaklarına yönelik yatırımlara rehberlik edecek veriler içermektedir.
+Enerji üreticilerine, elektrikli araçların pazar etkisi ve Tesla'nın neden pazar lideri olduğu gibi kritik bilgiler sunulmuştur. Bu analizler, çevre dostu enerji kaynaklarına yönelik yatırımlara rehberlik edecek veriler içermektedir.
 
 ## 🚀 Proje Amaçları
 - Elektrikli araçların şehir bazındaki dağılımlarını analiz etmek
