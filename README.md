@@ -1,82 +1,84 @@
-# Elektrikli Araç Pazar Analizi Projesi
+# 🚗 Electric Vehicle Market Analysis Project
 
-## 📊 Proje Hakkında
-Bu proje, elektrikli araç pazarındaki eğilimleri analiz etmek ve enerji altyapısı planlamalarına yönelik stratejik içgörüler sağlamak amacıyla geliştirilmiştir. Özellikle **Seattle şehri** ve **Tesla marka araçlar** üzerine yapılan detaylı analizler, sektörün geleceğine ışık tutacak önemli bulgular sunmaktadır.
+## 📊 About the Project
+This project aims to analyze trends in the electric vehicle (EV) market and provide strategic insights for energy infrastructure planning. A detailed analysis focusing on **the city of Seattle** and **Tesla vehicles** presents significant findings that shed light on the future of the industry.
 
-Enerji üreticilerine, elektrikli araçların pazar etkisi ve Tesla'nın neden pazar lideri olduğu gibi kritik bilgiler sunulmuştur. Bu analizler, çevre dostu enerji kaynaklarına yönelik yatırımlara rehberlik edecek veriler içermektedir.
+The analysis provides crucial information to energy producers, such as the market impact of electric vehicles and why Tesla remains the market leader. These insights serve as a guide for investments in environmentally friendly energy sources.
 
-## 🚀 Proje Amaçları
-- Elektrikli araçların şehir bazındaki dağılımlarını analiz etmek
-- Tesla'nın pazar liderliğini incelemek ve nedenlerini açıklamak
-- Elektrikli araç kullanımı ile hibrit araç kullanımı arasındaki oranları karşılaştırmak
-- Şehir bazında elektrikli araçların hangi markalar tarafından daha çok tercih edildiğini belirlemek
-- Enerji ve yakıt sektöründeki firmalar için stratejik içgörüler sağlamak
+## 🚀 Project Objectives
+- Analyze the distribution of electric vehicles by city
+- Examine Tesla's market leadership and the reasons behind it
+- Compare the ratio of electric vehicle usage to hybrid vehicle usage
+- Identify which brands are most preferred in different cities
+- Provide strategic insights for energy and fuel industry companies
 
-## 📂 Veri Seti
-- Kaggle'dan alınmıştır: [Electric Vehicle Population Data](https://www.kaggle.com/datasets/mariusborel/electric-vhicule-population-data)
+## 📂 Dataset
+- Sourced from Kaggle: [Electric Vehicle Population Data](https://www.kaggle.com/datasets/mariusborel/electric-vhicule-population-data)
 
-### Veri Seti Yapısı
-Veri seti toplamda **200.000+ satır** ve **17 sütun** içermektedir. Örnek sütunlar:
-- **`Model`**: Aracın modeli (ör. Tesla Model S)
-- **`Make`**: Üretici firma (ör. Tesla, Nissan)
-- **`Electric Range`**: Aracın tam dolu batarya ile gidebileceği mesafe (mil cinsinden)
-- **`City`**: Aracın kayıtlı olduğu şehir (ör. Seattle)
+### Dataset Structure
+The dataset contains **200,000+ rows** and **17 columns**. Sample columns include:
+- **`Model`**: Vehicle model (e.g., Tesla Model S)
+- **`Make`**: Manufacturer (e.g., Tesla, Nissan)
+- **`Electric Range`**: Distance a fully charged battery can travel (in miles)
+- **`City`**: City where the vehicle is registered (e.g., Seattle)
 
-### Ölçekler
-- **Electric Range (Menzil):** Sürekli sayısal bir değişken (mil cinsinden)
-- **City (Şehir):** Kategorik değişken
-- **Make (Marka):** Kategorik değişken
-- **Electric Vehicle Type (Araç Türü):** Plug-in veya BEV (Battery Electric Vehicle)
+### Data Metrics
+- **Electric Range:** Continuous numerical variable (in miles)
+- **City:** Categorical variable
+- **Make:** Categorical variable
+- **Electric Vehicle Type:** Plug-in or BEV (Battery Electric Vehicle)
 
-## 🧰 Kullanılan Teknolojiler ve Kütüphaneler
+## 🧰 Technologies & Libraries Used
 
-| Teknoloji / Araç             | Açıklama                                           |
-|------------------------------|---------------------------------------------------|
-| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) | Veri analizi ve işleme.                           |
-| ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white) | Veri manipülasyonu ve analiz işlemleri.           |
-| ![Matplotlib](https://img.shields.io/badge/-Matplotlib-FF4F8B?style=flat&logo=python&logoColor=white) | Veri görselleştirme.                              |
-| ![Seaborn](https://img.shields.io/badge/-Seaborn-5E5C5C?style=flat&logo=python&logoColor=white) | Gelişmiş veri görselleştirme.                     |
-| ![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white) | Veri seti ve proje paylaşımı platformu.           |
-
----
-
-## ⚙️ Proje Adımları
-1. **Veri Toplama:** Kaggle'dan elde edilen elektrikli araç verileri kullanıldı.
-2. **Veri Temizleme:** Eksik verilerin tespiti, doldurulması ve veri manipülasyonu yapıldı.
-3. **Keşifsel Veri Analizi (EDA):** Verinin görselleştirilmesi ve anlamlı desenlerin ortaya çıkarılması.
-4. **Analizler:** 
-   - Elektrikli araç kullanım oranlarının analizi
-   - Şehirler bazında araç dağılımlarının incelenmesi
-   - Tesla'nın neden pazar lideri olduğunun analiz edilmesi
-5. **Sonuçlar:** 
-   - Tesla'nın 8 kat daha fazla tercih edilme sebebi
-   - Elektrikli araçların hibritlere kıyasla üstünlüğü
-6. **Raporlama:** Analizlerin dokümante edilmesi ve bulguların paylaşılması.
-
-## 📈 Analiz Sonuçları
-- **Seattle Şehri:** Elektrikli araç kullanım oranı en yüksek olan şehir. Tesla, burada en çok tercih edilen marka.
-- **Tesla'nın Pazar Payı:** Tesla, diğer markalara kıyasla elektrikli araç pazarında 8 kat daha fazla tercih edilmiştir.
-- **Elektrikli Araçlar vs Hibrit Araçlar:** Elektrikli araçlar, hibrit araçlara kıyasla 4 kat daha fazla tercih edilmektedir.
-- **Şehir Bazlı Dağılımlar:** Seattle, Bellevue'den 4 kat daha fazla elektrikli araç kullanımı ile öne çıkmaktadır.
-
-#### 📝 Sonuçlar  
-1. Elektrikli araç pazarı hızla büyümekte, Tesla bu pazarın açık ara lideri olarak konumlanmaktadır.  
-2. Tesla'nın başarısının temel nedenleri:  
-   - **Elektrik menzili**  
-   - **Fiyat-performans oranı**  
-   - **Teknolojik yenilikler**  
-3. Elektrikli araçların popülerliği, hibrit araçların ve fosil yakıtlı araçların önüne geçmektedir.  
-
-#### 💡 Öneriler  
-1. Elektrikli araç şarj altyapısına yatırım yapılabilir. Özellikle **Seattle** gibi elektrikli araç kullanımının yoğun olduğu bölgelerde şarj istasyonları kurarak pazar payı artırılabilir.  
-2. Elektrikli araçlarla **entegre enerji çözümleri** geliştirilmelidir.  
-   - Evde kullanılabilecek yenilenebilir enerji destekli şarj cihazları sunulabilir.  
-   - Elektrikli araç markaları ile iş birliği yapılabilir.  
-3. **Tesla gibi lider markalarla iş birlikleri** kurularak şarj altyapısında avantaj sağlanabilir ve marka prestiji artırılabilir.  
+| Technology / Tool           | Description                                      |
+|------------------------------|--------------------------------------------------|
+| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) | Data analysis and processing.                      |
+| ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white) | Data manipulation and analysis.                   |
+| ![Matplotlib](https://img.shields.io/badge/-Matplotlib-FF4F8B?style=flat&logo=python&logoColor=white) | Data visualization.                               |
+| ![Seaborn](https://img.shields.io/badge/-Seaborn-5E5C5C?style=flat&logo=python&logoColor=white) | Advanced data visualization.                      |
+| ![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white) | Dataset and project-sharing platform.            |
 
 ---
-## 📄 Lisans
-Bu proje, **MIT Lisansı** altında lisanslanmıştır.
 
-## Kaggle Notebook Linki
+## ⚙️ Project Steps
+1. **Data Collection:** Electric vehicle data obtained from Kaggle.
+2. **Data Cleaning:** Identified and handled missing values and performed data preprocessing.
+3. **Exploratory Data Analysis (EDA):** Visualized data and identified meaningful patterns.
+4. **Analysis:**
+   - Examined electric vehicle usage rates.
+   - Investigated vehicle distributions across different cities.
+   - Analyzed why Tesla dominates the market.
+5. **Findings:**
+   - Tesla's market dominance is **8 times** higher than its competitors.
+   - Electric vehicles outperform hybrid vehicles.
+6. **Reporting:** Documented findings and shared analytical results.
+
+## 📈 Key Analysis Findings
+- **Seattle:** The city with the highest electric vehicle adoption. Tesla is the most preferred brand here.
+- **Tesla's Market Share:** Tesla is **8 times** more preferred than other brands in the EV market.
+- **Electric Vehicles vs. Hybrid Vehicles:** EVs are **4 times** more popular than hybrids.
+- **City-Based Distributions:** Seattle has **4 times** more EV users than Bellevue.
+
+#### 📝 Conclusions
+1. The electric vehicle market is growing rapidly, with Tesla positioned as the undisputed leader.
+2. Key reasons behind Tesla's success:
+   - **Electric range**
+   - **Price-performance ratio**
+   - **Technological innovations**
+3. The increasing popularity of EVs is surpassing that of hybrid and fossil-fuel vehicles.
+
+#### 💡 Recommendations
+1. Investing in electric vehicle charging infrastructure can be beneficial. Establishing charging stations in high-EV-adoption areas like **Seattle** can increase market presence.
+2. Developing **integrated energy solutions** with electric vehicles:
+   - Offering renewable energy-supported home charging solutions.
+   - Collaborating with electric vehicle manufacturers.
+3. **Partnering with leading brands like Tesla** can provide a competitive advantage in the charging infrastructure sector and enhance brand reputation.
+
+---
+## 📄 License
+This project is licensed under the **MIT License**.
+
+## Kaggle Notebook Link
 - **Notebook:** [LINK](https://www.kaggle.com/code/metinyurdev/electricvehicleanalysisproject)
+
+
